@@ -1,0 +1,17 @@
+{
+  "name": "clawbuilders-story-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Daily Cloudflare Worker that turns commits merged to your app's main branch into a short, non-technical build-log story and posts it to Threads.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit",
+    "cf-typegen": "wrangler types"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260915.1",
+    "typescript": "^5.6.2",
+    "wrangler": "^4.132.0"
+  }
+}

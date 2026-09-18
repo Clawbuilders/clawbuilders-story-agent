@@ -1,0 +1,11 @@
+# Copy to .dev.vars for local `wrangler dev` testing. Never commit the real file.
+
+GITHUB_TOKEN=ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+GITHUB_OWNER=your-org-or-username
+GITHUB_REPO=your-repo-name
+PREVIEW_TOKEN=some-random-string
+
+# Leave these two unset until Threads Tech Provider Verification clears —
+# the Worker automatically falls back to preview-only mode without them.
+THREADS_ACCESS_TOKEN=
+THREADS_USER_ID=
